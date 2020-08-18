@@ -5,9 +5,9 @@ NOTE: Created in Python 3
 
 ## Description
 
-The overall architecture is divied into main modules, namely the encoder and the decoder. The encoder consists of Inception v3 without its last layer, whereas the decoder consists of the actual RNN text generator with a fully connected layer applied before it that transforms image features produced by Inveption v3 to the inital state of the RNN. This conditioning is done specifically as the problem requires generating captions for images.
+The overall architecture is divied into main modules, namely the encoder and the decoder. The encoder consists of pre-trained Inception v3 without its last layer, whereas the decoder consists of the actual RNN text generator with a fully connected layer applied before it that transforms image features produced by Inveption v3 to the inital state of the RNN. This conditioning is done specifically as the problem requires generating captions for images.
 
-The images below show some captions our model has predicted.
+The images below show some predictions our model has made.
 <img src="/sample_images/cmb.png" width="400"> | <img src="/sample_images/non_cmb.png" width="400">
 :---: | :---:
 CMB Samples | Non-CMB Samples
