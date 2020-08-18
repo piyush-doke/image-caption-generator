@@ -20,8 +20,6 @@ CMB Samples | Non-CMB Samples
 
 ## Usage
 
-A brief description of the notebook is provided below.
-
 NOTE: For both training and predicting, cells are to be run sequentially in a top-to-bottom order.
 
 ### 1. Training the Model
@@ -30,9 +28,13 @@ Implemented in [image_caption_generator.ipynb](/image_caption_generator.ipynb).
 
 Cell Title | Cell Description
 :---: | ---
-Import Modules | Imports all the required modules.
-Settings | Sets the following parameters: seeds, split fraction, iterations of Bayesian optimization, and epochs for training the CNNs.
-Functions | Defines the following entities: CNN structures, image augmentations, Bayesian optimization algorithm, and evaluation metrics.
-Create Train/Test Sets | Splits the dataset into train and test sets. The train set undergoes image augmentation and test set remains unaugmented. Hold-out validation is used here.
-Preview Samples | Displays samples from the train set.
-Compare Structures | Trains 6 different CNN structures, each tuned using Bayesian optimization. Compares their accuracy, sensitivity, specificity, and precision.
+Mount Drive | Mounts Google Drive to Google Colab. NOTE: Should only be used if working on Google Colab.
+Import Libraries | Imports all the required modules.
+Download Train and Validation Data | Downloads training and validation data. NOTE: Should only be used if data is not already downloaded.
+Load Image Embeddings | Loads image dataset into memory.
+Load Image Embeddings | Loads caption dataset into memory.
+Show Training Example | Displays samples from the train set.
+Prepare Data for Training and Prediction | Preprocesses data for training and prediction. Also defines ultility functions required for batch training.
+Defining Model Architecture for Training | Defines the decoder achictecture of the model required for training and making preditions. This consisting of an Inceptionv3 to  LSTM bridge module and a network of LSTM cells.
+Load Pre-Trained Weights | Loads any pre-trained weights of the decoder achitecture. NOTE: should only be used if training is to be resumed.
+Training Loop | Trains the model.
