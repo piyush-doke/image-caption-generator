@@ -5,7 +5,7 @@ NOTE: Created in Python 3
 
 ## Description
 
-An LSTM network conditioned over Inception v3 for predicting image captions. The overall architecture can be divied into seprate sections, namely the encoder and decoder modules. The encoder consists of Inception v3. Whereas the decoder module 
+The overall architecture is divied into main modules, namely the encoder and the decoder. The encoder consists of Inception v3 without its last layer, whereas the decoder consists of the actual RNN text generator with a fully connected layer applied before it that transforms image features produced by Inveption v3 to the inital state of the RNN. This conditioning is done specifically as the problem requires generating captions for images.
 
 The images below show some captions our model has predicted.
 <img src="/sample_images/cmb.png" width="400"> | <img src="/sample_images/non_cmb.png" width="400">
@@ -24,6 +24,7 @@ NOTE: For both training and predicting, cells are to be run sequentially in a to
 
 ### 1. Training
 
+Rather than training over images, we train the decoder directly over image embeddings (produced by Inception v3) for efficiency proposes.
 Implemented in [image_caption_generator.ipynb](/image_caption_generator.ipynb).
 
 Cell Title | Cell Description
