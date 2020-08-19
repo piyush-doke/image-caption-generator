@@ -10,8 +10,11 @@ This is a Long Short-Term Memory (LSTM) network conditioned over Inception v3 fo
 The images below show some predictions our model has made.
 
 <br><img src="/sample_predictions/sample_1.png" height="400">
+
 <br><img src="/sample_predictions/sample_2.png" width="400">
+
 <br><img src="/sample_predictions/sample_3.png" width="400">
+
 <br><img src="/sample_predictions/sample_4.png" width="400">
 
 
