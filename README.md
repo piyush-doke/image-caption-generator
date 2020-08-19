@@ -57,4 +57,4 @@ Define Decoder | Defines the decoder architecture required for training and maki
 Load Pre-Trained Weights | Loads pre-trained weights for the decoder architecture.
 Define Encoder | Defines the encoder architecture required for making predictions.
 Prediction Loop | Defines the prediction function.
-Make Prediction (from validation set) | Applies the model on images (from validation set) to predict their captions.
+Make Prediction | Applies the model on images (from validation set) to predict their captions.
