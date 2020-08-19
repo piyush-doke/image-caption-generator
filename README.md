@@ -40,7 +40,7 @@ Import Libraries | Imports all the required modules.
 Download Training and Validation Data | Downloads training and validation data. <br>NOTE: Should only be used if data is not already downloaded.
 Load Image Embeddings | Loads the image dataset into memory.
 Load Captions | Loads the caption dataset into memory.
-Show Training Example | Displays some sample images and their captions (from training set).
+Show Training Examples | Displays some sample images and their captions (from training set).
 Prepare Data for Training and Making Predictions | Preprocesses data for training and making predictions. Also defines utility functions required for batch training.
 Define Decoder | Defines the decoder architecture required for training and making predictions.
 Load Pre-Trained Decoder Weights | Loads any pre-trained weights for the decoder architecture. <br>NOTE: Should only be used if training is to be resumed.
@@ -57,10 +57,10 @@ Import Libraries | Imports all the required modules.
 Download Training and Validation Data | Downloads training and validation data. <br>NOTE: Should only be used if data is not already downloaded.
 Load Image Embeddings | Loads the image dataset into memory.
 Load Captions | Loads the caption dataset into memory.
-Show Training Example | Displays some sample images and their captions (from training set).
+Show Training Examples | Displays some sample images and their captions (from training set).
 Prepare Data for Training and Making Predictions | Preprocesses data for training and making predictions. Also defines utility functions required for batch training.
 Define Decoder | Defines the decoder architecture required for training and making predictions.
 Load Pre-Trained Decoder Weights | Loads pre-trained weights for the decoder architecture.
 Define Encoder | Defines the encoder architecture required for making predictions.
 Prediction Loop | Defines the prediction function.
-Make Prediction | Applies the model on images (from validation set) to predict their captions.
+Make Predictions | Applies the model on images (from validation set) to predict their captions.
