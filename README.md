@@ -38,7 +38,7 @@ Load Captions | Loads the caption dataset into memory.
 Show Training Example | Displays some sample images and their captions (from training set).
 Prepare Data for Training and Prediction | Preprocesses data for training and making predictions. Also defines utility functions required for batch training.
 Define Decoder | Defines the decoder architecture required for training and making predictions.
-Load Pre-Trained Weights | Loads any pre-trained weights for the decoder architecture. <br>NOTE: Should only be used if training is to be resumed.
+Load Pre-Trained Decoder Weights | Loads any pre-trained weights for the decoder architecture. <br>NOTE: Should only be used if training is to be resumed.
 Training Loop | Trains the model. Saves learned weights after every epoch and also after the decoder is done training.
 
 ### 2. Making Predictions
@@ -54,7 +54,7 @@ Load Captions | Loads the caption dataset into memory.
 Show Training Example | Displays some sample images and their captions (from training set).
 Prepare Data for Training and Prediction | Preprocesses data for training and making predictions. Also defines utility functions required for batch training.
 Define Decoder | Defines the decoder architecture required for training and making predictions.
-Load Pre-Trained Weights | Loads pre-trained weights for the decoder architecture.
+Load Pre-Trained Decoder Weights | Loads pre-trained weights for the decoder architecture.
 Define Encoder | Defines the encoder architecture required for making predictions.
 Prediction Loop | Defines the prediction function.
 Make Prediction | Applies the model on images (from validation set) to predict their captions.
