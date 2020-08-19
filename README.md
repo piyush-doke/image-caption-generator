@@ -29,7 +29,7 @@ NOTE: For both training and making predictions, cells are to be run sequentially
 
 ### 1. Training
 
-Rather than training over images, we train the decoder directly over image embeddings (produced by Inception v3) for efficiency proposes.
+Rather than training over images, we train the decoder directly over image embeddings (produced by Inception v3) for efficiency proposes. As for the encoder, training is skipped as we utilize a pretrained Inception v3 network.
 
 Implemented in [image_caption_generator.ipynb](/image_caption_generator.ipynb).
 
