@@ -8,9 +8,7 @@ NOTE: Created in Python 3
 This is a Long Short-Term Memory (LSTM) network conditioned over Inception v3 for predicting image captions. The overall architecture is divided into two modules, namely the encoder and the decoder. The encoder comprises of a pre-trained Inception v3 network, whereas the decoder consists of the actual LSTM text generator. We also consider applying a dense layer connecting the two, this helps transform image embeddings into the RNN's initial state.
 
 The images below show some predictions our model has made.
-<img src="/sample_images/cmb.png" width="400"> | <img src="/sample_images/non_cmb.png" width="400">
-:---: | :---:
-CMB Samples | Non-CMB Samples
+<img src="/sample_predictions/sample_1.png" width="400"> | <img src="/sample_predictions/sample_2.png" width="400"> | <img src="/sample_predictions/sample_3.png" width="400"> | <img src="/sample_predictions/sample_4.png" width="400">
 
 
 ## Frameworks/Tools
@@ -50,6 +48,7 @@ Cell Title | Cell Description
 Mount Drive | Mounts Google Drive to Colab. <br>NOTE: Should only be used if working on Colab.
 Import Libraries | Imports all the required modules.
 Download Training and Validation Data | Downloads training and validation data. <br>NOTE: Should only be used if data is not already downloaded.
+Load Image Embeddings | Loads the image dataset into memory.
 Load Captions | Loads the caption dataset into memory.
 Show Training Example | Displays some sample images and their captions (from training set).
 Prepare Data for Training and Making Predictions | Preprocesses data for training and making predictions. Also defines utility functions required for batch training.
