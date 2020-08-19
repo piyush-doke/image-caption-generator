@@ -5,7 +5,7 @@ NOTE: Created in Python 3
 
 ## Description
 
-This is a Long Short-Term Memory (LSTM) network conditioned over Inception v3 for predicting image captions. The overall architecture is divided into two modules, namely the encoder and the decoder. The encoder comprises of a pre-trained Inception v3 network, whereas the decoder consists of the actual LSTM text generator. We also consider applying a dense layer connecting the two, this helps transform image embeddings into the RNN's initial state.
+This is a Long Short-Term Memory (LSTM) network conditioned over Inception v3 for predicting image descriptions. The overall architecture is divided into two modules, namely the encoder and the decoder. The encoder comprises of a pre-trained Inception v3 network, whereas the decoder consists of the actual LSTM text generator. We also consider applying a dense layer connecting the two, this helps transform image embeddings into the RNN's initial state.
 
 The images below show some predictions our model has made.
 
