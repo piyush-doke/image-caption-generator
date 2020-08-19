@@ -36,7 +36,7 @@ Implemented in [image_caption_generator.ipynb](/image_caption_generator.ipynb).
 Cell Title | Cell Description
 :---: | ---
 Mount Drive | Mounts Google Drive to Colab. <br>NOTE: Should only be used if working on Colab.
-Import Libraries | Imports all the required modules.
+Import Libraries | Imports all the required dependencies.
 Download Training and Validation Data | Downloads training and validation data. <br>NOTE: Should only be used if data is not already downloaded.
 Load Image Embeddings | Loads the image dataset into memory.
 Load Captions | Loads the caption dataset into memory.
@@ -53,7 +53,7 @@ Implemented in [image_caption_generator.ipynb](/image_caption_generator.ipynb).
 Cell Title | Cell Description
 :---: | ---
 Mount Drive | Mounts Google Drive to Colab. <br>NOTE: Should only be used if working on Colab.
-Import Libraries | Imports all the required modules.
+Import Libraries | Imports all the required dependencies.
 Download Training and Validation Data | Downloads training and validation data. <br>NOTE: Should only be used if data is not already downloaded.
 Load Image Embeddings | Loads the image dataset into memory.
 Load Captions | Loads the caption dataset into memory.
